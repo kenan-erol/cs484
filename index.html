@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0k/lib/p5.js"></script>
+        <script src="something for jquery"></script>
+    </head>
+<style>
+    .blue { color: blue; }
+
+    #button { border: 1px solid green;
+    
+    }
+</style>    
+<body>
+        <div class="blue">hi</div>
+        <div id="button">buttontime</div>
+        <div id="msg"></div>
+    </body>
+<script>
+    document.getElementById("button").onclick = function(e){
+        document.getElementById("msg").innerHTML = "world";
+    }
+</script>
+
+</html>
